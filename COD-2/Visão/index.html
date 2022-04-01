@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../Assets/js/all.min.js"></script>
+    <script src="../Assets/js/script.js"></script>
+    <link rel="stylesheet" href="../Assets/css/estilo.css">
+    <title>Trash Business</title>
+</head>
+<body>
+  <!-- Nav-bar-->
+  <nav>
+    <div class="nav">
+        <span class="logo">Trash Businnes</span>
+        
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li class="dropdown" onclick="show_drop()"><a href="#">Loja Kwenda <span class="fa fa-angle-down"></span></a>
+                  <ul class="dropdown-content" id="drop">
+                    <li><a href="loja_prod.html">Aquisição de produtos</a></li>
+                    <li><a href="loja_serv.html">Aquisição de Serviços</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </div>
+        <div class="icon-menu" onclick="show()">
+          <span class="fa fa-bars"></span>
+      </div>
+        <div class="btn-menu">
+          <a href="#" class="btn">Entrar</a>
+        </div>
+    </div>
+    <div id="bg-menu" onclick="show()"></div>
+</nav>
+<!--banner-->
+<div class="banner">
+  <div class="row">
+    <div class="col-4">
+      <h1>Seu lixo! nosso negócio.</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos similique nemo ea consequatur incidunt minus numquam velit. Assumenda, ipsam iure animi autem dolorem sunt quo. Asperiores molestias dolore voluptas saepe?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt deleniti veritatis placeat nisi quam alias tempora asperiores ex aspernatur amet, praesentium natus. Numquam totam ipsa ipsum rem sunt ducimus magni.
+      </p>
+      <a href="#" class="btn">Nossa loja <span class="fa fa-angle-right"></span></a>
+    </div>
+    <div class="col-6"></div>
+  </div>
+</div>
+<!-- BLOG-->
+<div class="container">
+  <div class="row">
+    <div class="card">
+      <img src="../Assets/imagens/img-card/img-1.jpg">
+      <h3>Reciclagem</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem nostrum, quidem tenetur harum cupiditate blanditiis eligendi qui maiores deserunt.</p>
+      <a href="#" class="btn">Ler mais...</a>
+    </div>
+    <div class="card">
+      <img src="../Assets/imagens/img-card/img-2.png">
+      <h3>Recolha Selectiva</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem nostrum, quidem tenetur harum cupiditate blanditiis eligendi qui maiores deserunt,.</p>
+      <a href="#" class="btn">Ler mais...</a>
+    </div>
+    <div class="card">
+      <img src="../Assets/imagens/img-card/img-3.jpg">
+      <h3>Postos de Recolha</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem nostrum, quidem tenetur harum cupiditate blanditiis eligendi qui maiores deserunt.</p>
+      <a href="#" class="btn">Ler mais...</a>
+    </div> 
+    <div class="card">
+      <img src="../Assets/imagens/img-card/img-4.jpeg">
+      <h3>Ambientação</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem nostrum, quidem tenetur harum cupiditate blanditiis eligendi qui maiores deserunt.</p>
+      <a href="#" class="btn">Ler mais...</a>
+    </div> 
+  </div>
+</div>
+<!-- LOJA KWENDA-->
+<div class="loja container text-center">
+  <h2>Loja Kwenda</h2>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+  <div style="display:flex;justify-content: space-between;margin: 0px 40px 0px 0px;">
+    <h3>Produtos Kwenda</h3>
+    <a href="#">visitar loja</a>
+  </div>
+  <div class="row">
+    <div class="card">
+      <img src="../Assets/imagens/img-loja/img-prod/img-1.jpg">
+      <h4>Havaianas</h4>
+      <p>preço:1000 bidons de 1ltr</p>
+      <div class="btn-card">
+        <a href="#" class="btn">Comprar</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="../Assets/imagens/img-loja/img-prod/img-2.jpg">
+      <h4>Lacost</h4>
+      <p>preço:1000 bidons de 1ltr</p>
+      <div class="btn-card">
+        <a href="#" class="btn">Comprar</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="../Assets/imagens/img-loja/img-prod/img-3.jpg">
+      <h4>Casaco</h4>
+      <p>preço:1000 bidons de 1ltr</p>
+      <div class="btn-card">
+        <a href="#" class="btn">Comprar</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="../Assets/imagens/img-loja/img-prod/img-4.jpg">
+      <h4>Big Burguer</h4>
+      <p>preço:1000 bidons de 1ltr</p>
+      <div class="btn-card">
+        <a href="#" class="btn">Comprar</a>
+      </div>
+    </div>
+  </div>
+  <!--serviços-->
+  <div style="display:flex;justify-content: space-between;margin: 0px 40px 0px 0px;">
+    <h3>Serviços Kwenda</h3>
+    <a href="#">visitar loja</a>
+  </div>
+  <div class="row">
+    <div class="card">
+      <img src="../Assets/imagens/img-loja/img-serv/img-1.jpg">
+      <h4>Consultoria e Atendimento ao público</h4>
+      <p>preço:1000 bidons de 1ltr</p>
+      <div class="btn-card">
+        <a href="#" class="btn">Comprar</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="../Assets/imagens/img-loja/img-serv/img-2.png">
+      <h4>Curso de Marketing Digital</h4>
+      <p>preço:1000 bidons de 1ltr</p>
+      <div class="btn-card">
+        <a href="#" class="btn">Comprar</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="../Assets/imagens/img-loja/img-serv/img-3.jpg">
+      <h4>Curso de Culinária</h4>
+      <p>preço:1000 bidons de 1ltr</p>
+      <div class="btn-card">
+        <a href="#" class="btn">Comprar</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="../Assets/imagens/img-loja/img-serv/img-4.jpg">
+      <h4>Curso de Design Gráfico</h4>
+      <p>preço:1000 bidons de 1ltr</p>
+      <div class="btn-card">
+        <a href="#" class="btn">Comprar</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!--fim loja-->
+<!--        Depoimento      -->
+<div class="depoimento container text-center">
+  <h2>Depoimento</h2>
+  <p>Lorem ipsum dolor sit amet consectetur .</p>
+  <div class="row">
+    <div class="card" id="dp-img-1">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur ratione eum eos perferendis amet deserunt dolorem delectus consequatur optio repellat.</p>
+      <img><br>
+      <span>Jeovany Maia</span>
+    </div>
+    <div class="card" id="dp-img-2">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur ratione eum eos perferendis amet deserunt dolorem delectus consequatur optio repellat.</p>
+      <img><br>
+      <span>Denzel James</span>
+    </div>
+    <div class="card" id="dp-img-3">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur ratione eum eos perferendis amet deserunt dolorem delectus consequatur optio repellat.</p>
+      <img><br>
+      <span>Joel Edgar</span>
+    </div>
+    <div class="card" id="dp-img-2">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur ratione eum eos perferendis amet deserunt dolorem delectus consequatur optio repellat.</p>
+      <img><br>
+      <span>Joel Edgar</span>
+    </div>
+  </div>
+</div>
+<!--     CONTACTO      -->
+<div class="contacto container text-center">
+  <h2>Sinta-se livre! escreva uma mensagem</h2>
+  <div class="row">
+    <div class="col-4">
+      <h3>Informações de Contacto</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos similique nemo ea consequatur incidunt minus numquam velit. Assumenda,
+      </p>
+      <br>
+      <div style="margin-bottom: 10px;">
+        <span class="fa fa-map-marker-alt"style="margin-right:15px;color:#45EBA5;"></span>
+        <p style="display: inline">Endereço: Luanda, Palanca II rua 12</p>
+      </div>
+      <div style="margin-bottom: 10px;">
+        <span class="fa fa-phone-alt"style="margin-right:15px;color:#45EBA5;"></span><p style="display: inline">Telefone: +244 999 999 999</p>
+      </div>
+      <div style="margin-bottom: 10px;">
+        <span class="fa fa-envelope"style="margin-right:15px;color:#45EBA5;"></span><p style="display: inline">E-mail: trashbusiness@gmail.com</p>
+      </div>
+      <div style="margin-bottom: 10px;">
+        <span class="fa fa-globe"style="margin-right:15px;color:#45EBA5;"></span><p style="display: inline">Site: trashbusiness.co.ao</p>
+      </div>
+
+    </div>
+    <div class="col-6">
+      <form action="" method="post">
+        <input type="text" name="nome" placeholder="Primeiro Nome">
+        <input type="text" name="nome" placeholder="Último Nome">
+        <input type="text" name="nome" placeholder="escreva o seu E-mail" id="email"><br>
+        <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+        <br>
+        <input type="submit" class="btn" value="Enviar">
+      </form>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="container text-center">
+    <h4>Trash Business</h4>
+    <div>
+      <a href="#"><span class="fab fa-facebook icon-social"></span></a>
+      <a href="#"><span class="fab fa-instagram icon-social"></span></a>
+      <a href="#"><span class="fab fa-youtube icon-social"></span></a>
+      <a href="#"><span class="fab fa-twitter icon-social"></span></a>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <h5>Todos direitos reservados Trash Busines | by: Denzel James</h5>
+    <div>
+      <a href="#">Suport</a>
+      <a href="#">Fala connosco</a>
+      <a href="#">Termos de uso</a>
+      <a href="#">FAQ</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

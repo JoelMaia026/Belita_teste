@@ -1,0 +1,406 @@
+*{margin: 0px;box-sizing: border-box;}
+h1,h2,h3,h4,h5,h6{font-family:roboto;}
+p,span,a{font-family:Poppins Light;font-size: 18px;}
+h1{font-size:30px;font-weight: 600px;}
+h2{font-size:26px;font-weight: 500px;}
+h3{font-size:20px;font-weight: 400px;}
+h4{font-size:16px;font-weight: 100px;}
+h5{font-size:16px;}
+nav{
+    background-color: #45eba6d2;
+    color:white;
+    padding: 0px 90px;
+    position: fixed;
+    width: 100%;
+}
+.nav{
+    height:60px;
+    padding-top:20px;
+    display: flex;
+    box-sizing: border-box;
+}
+.logo{color:white;padding-top:5px;}
+.icon-menu,#menu,.btn-menu{position: absolute;}
+#menu{right:220px;padding-top:3px;}
+.icon-menu{right:260px;padding-top:3px;}
+.btn-menu{right:110px;top:22px;}
+.icon-menu,#menu li a{
+    color: rgb(255, 244, 244);
+    font-size: 20px;
+}
+.icon-menu{
+    display: none;
+    font-size: 30px;
+}
+.btn-menu .btn{
+    padding:5px 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: #5AACF3;
+}
+ul li{
+    display: inline;
+    transition: 0.5s;
+}
+#menu li a{
+    padding:0px 5px;
+    text-decoration:none;
+}
+.dropdown-content{
+    display: none;
+    position:absolute;
+    padding: 16px 12px;
+    background-color: #09291c;
+    transition: 1s;
+}
+.dropdown-content li{display:block;padding:5px}
+.dropdown-content li:hover{border-bottom: 2px solid #00a55d;}
+.dropdown:hover .dropdown-content{display: block;}
+/* #################### extra #############################*/
+.container{width:100%;padding:0px 90px;margin-bottom:50px;}
+.row{display: flex;flex-wrap:wrap;margin:20px 0px;}
+
+.col-4,.col-6{height: auto;padding-bottom:15px;}
+.col-4{width: 40%;}
+.col-6{width: 60%;}
+.btn{
+    padding:8px 8px;
+    border-radius: 45px;
+    text-decoration: none;
+}
+.card{
+    width:250px;
+    height:auto;
+    padding:0px 0px 15px 0px;
+    margin:20px 20px 20px 0px;
+    box-shadow:0px 0px 3px black;
+}
+.row .card:first-child{
+    margin-right:20px;
+}
+.card img{
+    width:100%;
+    height:200px
+}
+.card h3 ,.card h4, .card p{
+    margin:14px;
+}
+.btn-card{
+    width: 100%;
+    text-align: right;
+}
+
+.text-center {text-align: center;}
+.text-center h2{margin-bottom:10px}
+.text-center p{margin-bottom:30px}
+.text-center p{margin-left:200px;margin-right:200px;}
+/*         banner     */
+.banner{background-color: rgba(98, 105, 105, 0);padding: 120px 90px 30px 90px;margin-bottom: 50px;}
+.banner .col-4 p{margin-bottom:30px;}
+.banner .col-4 .btn{color: white;background: #45EBA5;}
+.btn .fa-angle-right{margin-left: 5px;}
+.banner .col-6{
+    background-image: url(../imagens/img-bg/bg-2.jpg);
+    background-position:bottom;
+    background-size:cover;
+    background-clip:initial;
+    background-repeat: no-repeat;
+    height: auto;
+}
+/*         Blog      */
+.card h3{color:#45EBA5}
+.card .btn{
+    color:#45EBA5;
+}
+/*        Loja     */
+.loja .row{text-align: left;}
+.loja .card{box-shadow:0px 0px 3px #09291c;}
+.loja .row h4,.loja .row p{
+    margin:5px 14px;
+}
+.loja .row p{margin-bottom: 25px;}
+.loja .row .btn{
+    color:#45EBA5;
+    border: 1px solid #00a55d;
+    border-radius:10px;
+    padding:6px 10px;
+    transition: 0.9s;
+    margin: 0px 10px;
+}
+.loja .row .btn:hover{
+    color:white;
+    background: #45EBA5;
+    border: 1px solid #30ffa5;
+}
+.loja a{color:#5AACF3;font-weight:600pt;}
+/*       Depoimento     */
+.depoimento .row p{text-align: left;}
+.depoimento .row h4,.depoimento .row p{
+    margin:5px 14px;
+}
+.depoimento .card{box-shadow:0px 0px 3px #00a55d;}
+.depoimento .card img{
+    background-position:top;
+    background-size: cover;
+    width: 60px;
+    height:60px;
+    border-radius: 100%;
+    image-rendering: optimizeQuality;
+    image-resolution: inherit;
+    margin:25px 0px 5px 0px;
+}
+#dp-img-1 img{background-image:url(../imagens/img-depoimento/img-1.jpg);}
+#dp-img-2 img{background-image:url(../imagens/img-depoimento/img-2.jpg);}
+#dp-img-2{background-color:#45EBA5;color: white;}
+#dp-img-2 span{color: white;}
+#dp-img-3 img{background-image:url(../imagens/img-depoimento/img-3.jpg);}
+.depoimento span{
+    color:#09291c;
+    font-weight: 500;
+    font-size: 14px;
+}
+/*          Contacto         */
+.contacto .row{
+    text-align: left;
+    margin-top: 50px;
+}
+.contacto .row p{
+    margin:5px 80px 5px 0px
+}
+.col-6 input{
+    width: 40%;
+    height: 30px;
+    border:none;
+    border-bottom: 1px solid #09291c;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 16px;
+}
+.col-6 #email{
+    width: 82%;
+}
+textarea{
+    width:82%;
+    height:90px;
+    border:none;
+    border-bottom: 1px solid #09291c;
+    outline: none;
+    resize: none;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.col-6 input:hover, textarea:hover{
+    border-bottom: 1px solid #45EBA5;
+    transition: 0.7s;
+}
+.col-6 .btn{
+    width: 84%;
+    height:40px;
+    border-radius:5px;
+    color:white;
+    background:#45EBA5;
+    border:none
+}
+/*    rodape       */
+footer{
+    background-color: #00a55d;
+    height:auto;
+    padding:40px 0px 15px 0px;
+    color: white;
+}
+footer h4{margin-bottom:10px;}
+footer .icon-social{
+    color:white;
+    border:1px solid white;
+    font-size: 40px;
+    margin:5px;
+    padding: 5px;
+}
+footer .row{justify-content: space-around;margin-top: 20px;}
+footer .row a{
+    color: white;
+    text-decoration: none;
+    padding:8px;
+}
+
+
+/* ================== RESPONSIVO ================ */
+@media only screen and (max-width:768px){
+    nav{padding: 0px 50px;}
+    .nav{
+        padding-top: 10px;
+    }
+    #menu{
+        display:none;      
+    }
+    .icon-menu{right:180px;padding-top:12px;}
+    .btn-menu{right:80px;top:20px;}
+    .icon-menu{
+        display:inline-block;
+    }
+    .logo{
+        padding-top:8px ;
+    }
+    .logo,#menu{text-align: left;}
+    .icon-menu{text-align: right;font-size: 25px;}
+    .icon-menu,#menu li a{
+        color: rgb(238, 238, 238);
+    }
+    ul li{display:block;padding-top: 10px;}
+    li a{font-size: 20px;}
+    #menu{margin-left: 100px;}
+    #menu>ul{
+        position:absolute;
+        top:50px;
+        width:600px;
+        right:-400px;
+        height:1112px;
+        padding:10px 0px 0px 5px;
+        background-color: rgb(10 9 9);
+        z-index: 1;
+    }
+    #bg-menu{
+        display: none;
+        position: absolute;
+        left:0px;
+        width:100%;
+        height:1112px;
+        background-color: rgba(10, 9, 9, 0.774);
+    }
+    .dropdown-content li{display:block;padding:0px}
+    .dropdown-content{
+        position:relative;
+        display: none;
+        padding: 16px 12px;
+        background-color: rgb(8, 8, 8);
+        transition: 1s;
+    }
+    /* ==================================================*/
+    /* #################### extra #############################*/
+    .container{width:100%;padding:0px 50px;margin-bottom:50px;}
+    .row{justify-content:left;}
+    .col-4{width: 50%;}
+    .col-6{width: 50%;}
+    .card{
+        width:300px;
+        height:auto;
+        padding:0px 0px 25px 0px;
+    }
+    /*                    BANNER                  */
+    .banner{
+        background-image: url(../imagens/img-bg/bg-2.jpg);
+        background-size: cover;
+        background-position:center;
+        color:white;
+    }
+    .banner .col-4{width:100%;background-color: #4242428f;padding: 40px 20px 40px 20px;}
+    .banner .col-6{display: none;}
+    .banner{padding:60px 50px 50px 30px}
+   .banner .col-4 p{margin:10px 0px 35px 0px;}
+   /* contactos        */ 
+   .contacto .row{
+    flex-direction: column-reverse;
+    }
+    form{font-size: 16px;}
+   .contacto .row .col-4,.contacto .row .col-6{
+    width:100%;
+    }
+    .col-6 input{
+        width: 40%;
+        height: 30px;
+        font-size: 16px;
+    }
+    .col-6 #email{
+        width: 82%;
+    }
+    textarea{
+        width:82%;
+        font-size: 16px;
+    }
+    
+}
+@media only screen and (max-width:425px){
+    p,span,a{font-size: 12px;}
+    h1{font-size:25px;font-weight: 600px;}
+    h2{font-size:22px;font-weight: 500px;}
+    h3{font-size:18px;font-weight: 400px;}
+    h4{font-size:12px;font-weight: 100px;}
+    h5{font-size:12px;}
+    nav{
+        padding: 0px 20px;
+    }
+    .logo{padding-top:13px;}
+    .icon-menu{right:100px;padding-top:10px;}
+    .btn-menu{right:20px;top:22px;}
+    #menu>ul{
+        position:absolute;
+        top:50px;
+        right:-220px;
+        width:320px;
+        height:1112px;
+        padding:10px 0px 0px 5px;
+        background-color: rgb(10 9 9);
+        z-index: 1;
+    }
+    #menu >ul> li{display:block;margin-left:10px;}
+    /* ==================================================*/
+    /* #################### extra #############################*/
+    .container{width:100%;padding:0px 10px;margin-bottom:50px;}
+    .col-4{width: 100%;}
+    .col-6{width: 100%;}
+    .card{
+        width:180px;
+        height:auto;
+        padding:0px 0px 14px 0px;
+        margin:20px 10px 10px 0px;
+        margin-left:11px;
+    }
+    .row .card:first-child {
+        margin-right: 10px;
+    }
+    .card img {
+        width: 100%;
+        height: 120px;
+    }
+    .text-center h2 {
+        margin-bottom: 10px;
+        margin: 0px 20px 10px 20px;
+    }
+    .text-center p {
+        margin-left: 58px;
+        margin-right: 40px;
+        margin-bottom: 5px;
+    }
+    .depoimento span {
+        color: #09291c;
+        font-weight: 500;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    /*                    BANNER                  */
+    .banner{padding:100px 50px 50px 30px}
+   .banner .col-4 p{margin:10px 0px 35px 0px;}
+   .banner .col-6{display: none;}
+    /*                    contactos                  */
+    
+    .contacto .row{
+    flex-direction: column-reverse;
+    padding-left: 20px;
+    }
+   .Contacto .row .col-4,.Contacto .row .col-6{
+    width:100%;
+    }
+    /* loja    */
+    .loja .row .btn{
+        margin-left: 95px;
+    }
+    form {
+        display: block;
+    }
+
+    /* footer  */
+    footer .row{flex-direction: column-reverse;padding-left: 40px;}
+    footer .row h5{margin-top:10px}
+    
+}
